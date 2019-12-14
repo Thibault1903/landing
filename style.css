@@ -1,0 +1,96 @@
+ body { 
+background-color: white;
+  }
+
+
+.btn-blue {
+  background-color: #621B00 ;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: rgb(230, 230, 230);
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+  margin: 350px 350px;
+}
+
+.banner 
+{
+background-image: linear-gradient(-175deg, rgba(20,20,20, 0.8)0%, rgba(20,20,20, 0.3) 50px), url(images/audi.jpg);
+color: white;
+padding: 150px 0px;
+background-size: cover;
+background-position: center;
+
+}
+
+.banner h1 { 
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+    margin-left: 100px;
+}
+
+.banner h2{
+	font size: 35px;
+	font-weight: lighter;
+	opacity:0.8;
+    margin-bottom: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.card {
+	background : rgba(20,20,20, 0.9);
+	padding: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px black;
+    border-radius: 10px;
+    flex-basis: 350px;
+    flex-grow: 1;
+    margin: 10px ;
+    width: 700px;
+}
+
+.card img {
+	width: 120px;
+	border-radius: 10px;
+}
+
+.card h3 {
+	 flex-grow: 1;
+    padding-left: 80px;
+	font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+.btn-red {
+  background-color: #621B00;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: rgb(230, 230, 230);
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+#titre {
+  text-align: center;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: rgba(20,20,20, 0.9);
+}
+
+
